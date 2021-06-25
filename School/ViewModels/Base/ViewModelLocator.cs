@@ -31,7 +31,7 @@ namespace School.ViewModels.Base
                 nav.Configure("HomePage", typeof(HomePage));
             }
         }
-        private HomePageModel MasterPageVM => ServiceLocator.Current.GetInstance<HomePageModel>();
+        public HomePageModel HomePage => ServiceLocator.Current.GetInstance<HomePageModel>();
     }       
 }
 

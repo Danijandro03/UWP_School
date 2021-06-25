@@ -1,4 +1,6 @@
-﻿using System;
+﻿using GalaSoft.MvvmLight;
+using GalaSoft.MvvmLight.Views;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -6,7 +8,15 @@ using System.Threading.Tasks;
 
 namespace School.ViewModels.Base
 {
-    class BasePageModel
+    public class BasePageModel: ViewModelBase
     {
+        public INavigationService _navigationService;
+        
+        private bool isBusy;
+        public bool IsBusy { get { return isBusy; } set { isBusy = value; RaisePropertyChanged(); } }
+
+        public BasePageModel(INavigationService navigationservice)
+        {
+            _navigationService = navigationservice;        }
     }
 }
