@@ -19,6 +19,7 @@ C:\Users\Lenovo\Documents\UWP\School\School\School\bin\x86\Debug\Newtonsoft.Json
 C:\Users\Lenovo\Documents\UWP\School\School\School\bin\x86\Debug\RestSharp.dll
 C:\Users\Lenovo\Documents\UWP\School\School\School\bin\x86\Debug\System.Runtime.dll
 C:\Users\Lenovo\Documents\UWP\School\School\School\bin\x86\Debug\Microsoft.UI.Xaml.Markup.winmd
+C:\Users\Lenovo\Documents\UWP\School\School\School\obj\x86\Debug\School.csproj.AssemblyReference.cache
 C:\Users\Lenovo\Documents\UWP\School\School\School\obj\x86\Debug\App.g.i.cs
 C:\Users\Lenovo\Documents\UWP\School\School\School\obj\x86\Debug\App.g.cs
 C:\Users\Lenovo\Documents\UWP\School\School\School\obj\x86\Debug\Views\HomePage.g.i.cs
@@ -31,6 +32,7 @@ C:\Users\Lenovo\Documents\UWP\School\School\School\obj\x86\Debug\Views\HomePage.
 C:\Users\Lenovo\Documents\UWP\School\School\School\obj\x86\Debug\XamlSaveStateFile.xml
 C:\Users\Lenovo\Documents\UWP\School\School\School\obj\x86\Debug\School.csproj.CoreCompileInputs.cache
 C:\Users\Lenovo\Documents\UWP\School\School\School\obj\x86\Debug\School.csproj.CopyComplete
+C:\Users\Lenovo\Documents\UWP\School\School\School\obj\x86\Debug\Microsoft.UI.Xaml.pri.xml
 C:\Users\Lenovo\Documents\UWP\School\School\School\obj\x86\Debug\GalaSoft.MvvmLight.Platform.pri.xml
 C:\Users\Lenovo\Documents\UWP\School\School\School\obj\x86\Debug\School.exe
 C:\Users\Lenovo\Documents\UWP\School\School\School\obj\x86\Debug\School.pdb

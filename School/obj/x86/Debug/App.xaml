@@ -3,9 +3,16 @@
     xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
     xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
     xmlns:local="using:School"
-    xmlns:viewModels="using:School.ViewModels.Base">
+    xmlns:viewModels="using:School.ViewModels.Base"
+    >
+    
     <Application.Resources>
-    <viewModels:ViewModelLocator x:Key="Locator" />
+        <ResourceDictionary>
+            <ResourceDictionary.MergedDictionaries>
+                <XamlControlsResources xmlns="using:Microsoft.UI.Xaml.Controls" />
+            </ResourceDictionary.MergedDictionaries>
+            <viewModels:ViewModelLocator x:Key="Locator" />
+        </ResourceDictionary>
     </Application.Resources>
 </Application>
 

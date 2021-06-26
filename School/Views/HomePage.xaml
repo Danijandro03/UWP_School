@@ -5,12 +5,14 @@
     xmlns:local="using:School.Views"
     xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
     xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    xmlns:muxc="using:Windows.UI.Xaml.Controls"
     mc:Ignorable="d"
     Background="{ThemeResource ApplicationPageBackgroundThemeBrush}"
     DataContext="{Binding Source={StaticResource Locator}, Path=HomePage}"
+    
     >
     <Grid>
-        <TextBlock Text="Hola Mundo" Foreground="White"/>
-
+        <TextBlock Text="Hola">
     </Grid>
+
 </Page>

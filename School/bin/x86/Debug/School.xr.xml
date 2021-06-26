@@ -2,11 +2,17 @@
 <Roots >
   <Roots.PropertyPathNames>
     <RootPropertyPathName Name="HomePage" />
+    <RootPropertyPathName Name="Father" />
+    <RootPropertyPathName Name="faculties" />
   </Roots.PropertyPathNames>
   <Roots.RootTypes>
     <RootType FullName="Windows.UI.Xaml.Application">
       <RootProperty Name="Resources" />
     </RootType>
+    <RootType FullName="Windows.UI.Xaml.ResourceDictionary">
+      <RootProperty Name="MergedDictionaries" />
+    </RootType>
+    <RootType FullName="Microsoft.UI.Xaml.Controls.XamlControlsResources" />
     <RootType FullName="School.ViewModels.Base.ViewModelLocator" />
     <RootType FullName="Windows.UI.Xaml.Controls.Page">
       <RootProperty Name="Background" />
@@ -22,9 +28,15 @@
     <RootType FullName="Windows.UI.Xaml.Controls.Grid">
       <RootProperty Name="Children" />
     </RootType>
-    <RootType FullName="Windows.UI.Xaml.Controls.TextBlock">
-      <RootProperty Name="Text" />
-      <RootProperty Name="Foreground" />
+    <RootType FullName="Windows.UI.Xaml.Controls.TreeView">
+      <RootProperty Name="ItemsSource" />
+      <RootProperty Name="ItemTemplate" />
+    </RootType>
+    <RootType FullName="Windows.UI.Xaml.DataTemplate">
+      <RootProperty Name="Template" />
+    </RootType>
+    <RootType FullName="Windows.UI.Xaml.Controls.TreeViewItem">
+      <RootProperty Name="Content" />
     </RootType>
     <RootType FullName="School.Views.HomePage" />
   </Roots.RootTypes>
